@@ -1,0 +1,7 @@
+var age = prompt("What is your age?");
+// alert("Have you started looking for nursing homes yet");
+
+
+// if (age < 30 text) text = "You ain't seen the half of it yet";
+// if (age > 30 && < 40) text = "You better enjoy it while it lasts";
+// if (age > 40) text = "Have you started looking at nusring homes yet?";
