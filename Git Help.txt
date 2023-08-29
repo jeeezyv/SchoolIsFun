@@ -1,0 +1,3 @@
+Git Help:
+
+remove editor - git config --global --unset-all core.editor
