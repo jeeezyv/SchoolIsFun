@@ -1,18 +1,46 @@
 <html>
 	<head>
-		<title>Simple Page</title>
+		<title>Helpful Notes for class</title>
 	</head>
 	<body>
-		<p>This is a very simple HTML page</p>
-        <p>This page will shows tips for using git</p>
-        <p> Git Help:
+		<p>This page will keep up with important fundemental insights I come across this semester</p>
+        <p>This page will shows tips for using git or Python</p>
+        <p style="font-size:25px; " >Git Help: </p> <br>
 
-            Remove Editor: git config --global --unset-all core.editor <br>
+<p>            Remove Editor: git config --global --unset-all core.editor <br>
             Check for Primary Editor: git config --global --get core.editor <br>
             Add Primary Editor: git config --global core.editor "'c:/program files (x86)/brackets/brackets.exe' -multiInst -notabbar -nosession -noPlugin" <br> 
             Go Back to Old Commit: git check out <commit-hash> <br>
             See Previous Commits: git log <br>
-</p>
+</p>          
+        <p style="font-size:25px; " > Python Help: </p><br>
+        <p style="font-size:15px; " > Basic Knowledge</p><br>
+        <p> <strong>Class:</strong> Code-template for creating program objects <br>
+           &nbsp;&nbsp;&nbsp;&nbsp; Name(Type): What is it <br>
+           &nbsp;&nbsp;&nbsp;&nbsp; Attributes(Properties/Data): What describes it. _Attribute means it is internal to the class. Should not be accessed outside of the class. <br>
+           &nbsp;&nbsp;&nbsp;&nbsp;Behaviors(Operations): What can it do <br>
+           &nbsp;&nbsp;&nbsp;&nbsp;Method: A program procedure that can return a value. It is a function that defines a class. They can only access data known to its object. Static Methods are built in functions intended to pull in info about another class method or variable<br>
+            <strong>Interface:</strong> "At a high level, an interface acts as a blueprint for designing classes. Like classes, interfaces define methods. Unlike classes, these methods are abstract. An abstract method is one that the interface simply defines. It doesn’t implement the methods. This is done by classes, which then implement the interface and give concrete meaning to the interface’s abstract methods." An interface contains multiple inheratance and abstract base classes <br>
+            <strong>Abstraction: </strong>Focus on the essential qualities of something rather than a specific example <br>
+            <strong>Polymorphisim: </strong>Dynamic uses the same interface for methods on different types of objects. This could mean inheriting from a different class and overiding(Creating a unique version of an inherited method) certain aspecs of it. Static allows you to use different attributes or properties on the same method to receive different outputs. Static uses overloading. Inheritance, Abstraction, and Interface are all possible implementations of polymorphisim<br>
+            <strong>Inheritance:</strong> Base a new object or class on an existing one. Inherit the existing attributes and methods <br>
+           &nbsp;&nbsp;&nbsp;&nbsp; Super/Parent/Base Class --> Sub/Child/Derived Class <br>      
+           <strong> Encapsulation(Black boxing): </strong>An oject should not make anything about itself available except what is absolutely necessary for other parts of the application to work <br>
+        </p>
+        <p style="font-size:15px; " > Function Knowledge: </p><br>
+<p>             <strong>Sort or Sorted:  </strong>For lists<br>
+                       &nbsp;&nbsp;&nbsp;&nbsp; Formating: Variable = sorted(list.items(), key=lambda item: item[X], reverse=True))<br>
+                       &nbsp;&nbsp;&nbsp;&nbsp; Note: Reverse is for desc order <br>
+                <strong> Stg (string): <br></strong>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Formating: str(x)<br>
+                       &nbsp;&nbsp;&nbsp;&nbsp; Note: Place variable or number where X is located<br>
+               <strong>  enumerate: </strong>for counting or ranking value to be printed <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;formating: i, (var,var, etc.) enumerate(list/tuple) <br>
+                       &nbsp;&nbsp;&nbsp;&nbsp; Note:   i is represenative of the variable created from enumerate. Have to print 'i' as  string <br>
+</p> 
+<p>             PIP Version: pip -V
+    
+</p> 
 		<script src="assignment 1 HTML JS.js"></script>
 	</body>
 </html>
