@@ -26,3 +26,24 @@ class Person:
     # The string representation of a person is their first name and last name
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
+    
+# Create a person called Susan Jones with ID 2
+new_person = Person(2, "Susan", "Jones")
+# Print out Susan's details:
+#  Print the Susan's ID
+print("ID: ", new_person.id)
+#  Print the Susan's first name
+print("First Name:", new_person.first_name)
+#  Print the Susan's last name
+print("Last Name:", new_person.last_name)
+
+# Change the person's last name to Smith-Jones
+new_person.last_name = "Smith-Jones"
+
+# print(new_person)
+
+# Print out the person's details again
+print("Id: ", new_person.id)
+print("First Name: ", new_person.first_name)
+print("Last Name: ", new_person.last_name)
+    
